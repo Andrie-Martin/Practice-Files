@@ -7,6 +7,6 @@ buyer = input("Answer yes or no only, do you have a good credit? ")
 is_bad_credit = 1000000 * 0.2
 is_good_credit = 1000000 * 0.1
 if buyer == "yes":
-    print("Your downpayment is " + str(is_good_credit))
+    print(f"Your downpayment is ₱ {is_good_credit}")
 else:
-    print ("Your downpayment is " + str(is_bad_credit))
+    print(f"Your downpayment is ₱ {is_bad_credit}")

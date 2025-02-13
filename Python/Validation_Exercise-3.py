@@ -4,14 +4,15 @@
 
 # Code implementation:
 
-name = input("Please enter your desired name here: ")
+while True:
+    name = input("Please enter your desired name here: ")
 
-if len(name) < 3:
-    print("Invalid name! Your name must be 3 characters long.")
-elif len(name) > 12:
-    print("Invalid name! Your name must not be greater than 12 characters long.")
-    
-else:
-    print("Good name!")
-
+    if len(name) < 3:
+        print("Invalid name! Your name must be 3 characters long.")
+    elif len(name) > 12:
+        print("Invalid name! Your name must not be greater than 12 characters long.")
+        
+    else:
+        print("Good name!")
+        break 
 

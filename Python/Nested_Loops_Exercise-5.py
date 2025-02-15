@@ -16,3 +16,7 @@ for x in numbers:
     for y in range(x):
         outcome += 'x'
     print(outcome)
+
+
+# Now, do it for the letter L:
+

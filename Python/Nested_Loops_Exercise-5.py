@@ -8,3 +8,11 @@
 #  xx
 
 # Code Implementation
+
+numbers = [5, 2, 5, 2, 2, 2]
+
+for x in numbers:
+    outcome = ""
+    for y in range(x):
+        outcome += 'x'
+    print(outcome)

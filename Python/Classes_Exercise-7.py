@@ -1,0 +1,1 @@
+# Create a class named Person that would have a name attribute and a talk method.

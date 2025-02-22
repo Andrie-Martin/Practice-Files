@@ -7,11 +7,12 @@ class Person:
         self.name = name
     
     def talk (self):
-        print("talk")
+        print(f"{user_name} is talking")
 
-
+# Getting user input
+user_name = input("Enter your name: ")
 # Code sample
 
-name = Person("Liam")
-print (name.name)
-name.talk()
+person = Person(user_name)
+print (person.name)
+person.talk()

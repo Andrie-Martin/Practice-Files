@@ -14,5 +14,4 @@ user_name = input("Enter your name: ")
 # Code sample
 
 person = Person(user_name)
-print (person.name)
 person.talk()

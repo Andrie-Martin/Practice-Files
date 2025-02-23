@@ -17,5 +17,5 @@
 from utils import find_max
 
 numbers = [20,30,40,50,60]
-max = find_max(numbers)
-print(max)
+maximum = find_max(numbers)
+print(maximum)
